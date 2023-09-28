@@ -21,7 +21,7 @@ def show_session(key):
             for cookie in request.cookies],
     }), 200)
 
-    response.set_cookie('mouse', 'Cookie')
+    response.set_cookie('rat', 'Cookie')
 
     return response
 
